@@ -37,7 +37,7 @@ Khandakar Tanvir Ahmed, Jiao Sun, **William Chen**, Irene Martinez, Sze Cheng, W
 
 [uBump.co](https://shop.ubump.co) August 2020 - April 2021
 
-<img src="images/bump.png">
+<img src="../images/bump.png">
 
 I worked with [Brennen Fountain](https://www.linkedin.com/in/brennen-fountain-743302149/) and [Brett Fazio](https://www.linkedin.com/in/brett-fazio/) to create uBump, an NFC oriented social media sharing site.
 
@@ -49,7 +49,7 @@ uBump was sold to [Bolstered Equity Group](https://www.crunchbase.com/acquisitio
 
 [valorantify.com](https://github.com/wanchichen/valorantify-preview) June 2020 - August 2020
 
-<img src="images/valorantify.PNG">
+<img src="../images/valorantify.PNG">
 
 I helped develop one of the first VALORANT e-sports sites, which quickly became one of the top statistics and news sources for the budding professional scene. We were eventually acquired by [thespike.gg](https://www.thespike.gg/).
 
@@ -60,7 +60,7 @@ I helped develop one of the first VALORANT e-sports sites, which quickly became 
 ---
 [Finch - Personal Finance Projections App](https://github.com/ucfinancegroup/pfp)
 
-<img src="finch.png">
+<img src="../images/finch.png">
 
 For our Senior Design Project, [Charles Bailey](https://www.linkedin.com/in/charles-bailey/), [Heath Milligan](https://www.linkedin.com/in/heath-milligan/), [Brett Fazio](https://www.linkedin.com/in/brett-fazio/), [Andy Phan](), and I created a personal finance application geared towards complex financial projections. Built with Rust, React.ts, SwiftUI, and MongoDB, our application Finch was able to use financial data linked via Plaid to automatically track user financial metrics such as spending and income. 
 
@@ -89,7 +89,7 @@ We used a pre-trained [YOLO](https://pjreddie.com/darknet/yolo/) model for initi
 
 ---
 
-<img src="images/stonk.png">
+<img src="../images/stonk.png">
 
 I created a silly program that "predicts" stock prices, inspired by [Dr. Parik Patel](https://twitter.com/parikpatelcfa/status/1334497433469022208). It uses Otsu thresholding to obtain a city skyline from a source image, which is then mapped to a stock specified by the user. Implemented using React and Django.
 

@@ -8,43 +8,91 @@ redirect_from:
   - /about.html
 ---
 
-My name is GUGGEN and I am GOOD at SPRAYING. GAUG GAUWG GUGGEN GUAWWWWAAWAWA.
+## About Me
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I received a BS in Computer Science and BA in History from the University of Central Florida in May 2021.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I will be returning to Texas Instruments as a Software Engineer in July 2021. 
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+From June 2020 to August 2020, I worked as a Software Engineer Intern at Texas Instruments in the ERP Operations Team.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Since April 2021, I have been a member of the [UCF Security and Analytics Lab](http://seal.cs.ucf.edu), supervised by Professor [David Mohaisen](http://cs.ucf.edu/~mohaisen/). 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Since June 2020, I have been a member of the [UCF Computational Biology Lab](https://server.cs.ucf.edu/compbio/), headed by Professor [Wei Zhang](https://www.cs.ucf.edu/~wzhang/). I work primarily under [Jiao Sun](https://server.cs.ucf.edu/compbio/people/).
 
-**Markdown generator**
+Since January 2020, I have been a member of the [UCF Evolutionary Computation Lab](http://www.cs.ucf.edu/~ecl/index.html), headed by Professor [Annie Wu](http://www.cs.ucf.edu/~aswu/).
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+More info on my research work can be found [here](/research.md).
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+## Publications
+**William Chen**, Brett Fazio. [Morphologically-Guided Segmentation For Translation of Agglutinative Low-Resource Languages](https://wanchichen.github.io/pdf/morpho_nmt.pdf). _The 4th Workshop on Technologies for MT of Low Resource Languages_, 2021. (In press)
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Khandakar Tanvir Ahmed, Jiao Sun, **William Chen**, Irene Martinez, Sze Cheng, Wencai Zhang, Jeongsik Yong, and Wei Zhang. [In Silico Model for miRNA-mediated Regulatory Network in Cancer](https://github.com/compbiolabucf/PTNet). _Briefings in Bioinformatics_, 2021. (In press)
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Portfolio
+
+---
+
+### Startups
+
+---
+
+[uBump.co](https://shop.ubump.co) August 2020 - April 2021
+
+<img src="images/bump.png">
+
+I worked with [Brennen Fountain](https://www.linkedin.com/in/brennen-fountain-743302149/) and [Brett Fazio](https://www.linkedin.com/in/brett-fazio/) to create uBump, an NFC oriented social media sharing site.
+
+Users can simply tap their NFC stickers against a smartphone and instantly share all of their socials. Sample uBump Profile available [here](https://ubump.co/william).
+
+uBump was sold to [Bolstered Equity Group](https://www.crunchbase.com/acquisition/bolstered-equity-group-acquires-ubump--a3029e9a) in April 2021.
+
+---
+
+[valorantify.com](https://github.com/wanchichen/valorantify-preview) June 2020 - August 2020
+
+<img src="images/valorantify.PNG">
+
+I helped develop one of the first VALORANT e-sports sites, which quickly became one of the top statistics and news sources for the budding professional scene. We were eventually acquired by [thespike.gg](https://www.thespike.gg/).
+
+---
+
+### Projects
+
+---
+[Finch - Personal Finance Projections App](https://github.com/ucfinancegroup/pfp)
+
+<img src="finch.png">
+
+For our Senior Design Project, [Charles Bailey](https://www.linkedin.com/in/charles-bailey/), [Heath Milligan](https://www.linkedin.com/in/heath-milligan/), [Brett Fazio](https://www.linkedin.com/in/brett-fazio/), [Andy Phan](), and I created a personal finance application geared towards complex financial projections. Built with Rust, React.ts, SwiftUI, and MongoDB, our application Finch was able to use financial data linked via Plaid to automatically track user financial metrics such as spending and income. 
+
+Our custom projection engine allowed users to specify asset allocation amounts and simulate common financial events. Our system is also able to aggregate users together based off of similar financial situations, allowing for the recommendation of products used by similar users. We offer the user transparancy with our aggregation, allowing users to see their financial performance relative to peers through our leaderboards component.
+
+---
+[Extractive Text Summarization With Genetic Algorithms](https://github.com/wanchichen/GA-Text-Summarization)
+
+I created a genetic algorithm model for semantic-based extractive summarization for my graduate level Evolutionary Computation course.
+
+Previous works rely on sentence-based extraction, accomplished via heuristics such as sentence length and positioning. I wanted to create a model that relied purely upon word semantics, making the model more generalizable across formats and domains.
+
+---
+
+[Basketball Tracker](https://github.com/brettfazio/CVBallTracking)
+
+![](https://raw.githubusercontent.com/brettfazio/CVBallTracking/main/assets/bron.gif)
+
+[Brett Fazio](https://www.linkedin.com/in/brett-fazio/) and I created a pipeline for tracking basketballs in video for our graduate level Computer Vision course. 
+
+We used a pre-trained [YOLO](https://pjreddie.com/darknet/yolo/) model for initial bounding box detection and [Discriminative Correlational Filters](https://arxiv.org/abs/1611.08461) for live tracking, even without GPUs. We also implement a way to boost accuracy for non-live videos by tracking the object both forwards and backwards.
+
+---
+
+[Stock Skylines](https://wanchichen.github.io/Stock-Skylines/)
+
+---
+
+<img src="images/stonk.png">
+
+I created a silly program that "predicts" stock prices, inspired by [Dr. Parik Patel](https://twitter.com/parikpatelcfa/status/1334497433469022208). It uses Otsu thresholding to obtain a city skyline from a source image, which is then mapped to a stock specified by the user. Implemented using React and Django.
+
+---
